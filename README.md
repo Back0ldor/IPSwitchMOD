@@ -8,7 +8,7 @@ See example folder for details.
 
 ---
 ## Credits
-- [Plutoo](https://twitter.com/qlutoo)for making [elf2nso](https://github.com/switchbrew/switch-tools/tree/master/src), used in compressing patched elf to nso (ISC License)
+- [Plutoo](https://twitter.com/qlutoo) for making [elf2nso](https://github.com/switchbrew/switch-tools/tree/master/src), used in compressing patched elf to nso (ISC License)
 - [Violet Inkling](https://www.deviantart.com/violetinkling) for the app icon art *(with permission)*
 - [OatmealDome](https://github.com/OatmealDome) for help in testings and feature suggestions
 - All of my preview testers on SPH/SMH
