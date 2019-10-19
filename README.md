@@ -1,10 +1,10 @@
-![IPSwitch](https://raw.githubusercontent.com/3096/ipswitch/master/icon.png)
-# Pronounced as "IPS-witch".
+![IPSwitchRNX](https://raw.githubusercontent.com/3096/ipswitch/master/icon.png)
+# Pronounced as "IPS-witchRNX".
 Use text to generate `.ips` patches to use with Atmosphere.
 
 ### To use `.ips` patches make sure you have Atmosphere 44e2412a (July 30, 2018) or later loader build.
 
-See example for details.
+See example folder for details.
 
 ---
 ## Credits
