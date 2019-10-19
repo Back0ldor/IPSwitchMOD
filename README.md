@@ -13,7 +13,7 @@ See example for details.
 - OatmealDome for help in testings and feature suggestions
 - All of my preview testers on SPH/SMH
 - Back0ldor for add support for ReiNX
-
+- Elise for help and adding support for ReiNX
 ---
 ## Build
 Make sure you have:
