@@ -2,8 +2,8 @@
 #include "patch.h"
 
 int checkRequirement() {
-    if(!isDirectory(ATMOS_DIR)) {
-    	userConfirm("Do you even Atmosphere bro?");
+    if(!isDirectory(REINX_DIR)) {
+    	userConfirm("ERROR,did you miss something?");
     	return -1;
     }
     return 0;
