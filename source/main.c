@@ -9,7 +9,7 @@ int main(int argc, char **argv) {
 
     if (checkRequirement() == 0) {
         printf(CONSOLE_ESC(35;1m)
-            "Welcome to IPSwitch. Do no evil.\n\n" CONSOLE_ESC(m));
+            "Welcome to IPSwitch[ReiNX MOD]. Do no evil.\n\n" CONSOLE_ESC(m));
 
         mainMenu();
     }
