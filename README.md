@@ -31,6 +31,8 @@ For further assistance,
 
 • [Discord](https://discord.gg/v8Rueaf) (Sheldon's server)
 
+My Discord Server:
+
 • [Discord](https://discord.gg/cD4GnpA) (PsychoBear21's server)
 
 ---
