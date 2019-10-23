@@ -27,7 +27,11 @@ Then simply run: `make`
 ## How to use
 See [example](/example)
 
-For further assistance, please join our [Discord server](https://discord.gg/v8Rueaf)
+For further assistance, 
+
+• [Discord](https://discord.gg/v8Rueaf) (Sheldon's server)
+
+• [Discord](https://discord.gg/cD4GnpA) (PsychoBear21's server)
 
 ---
 ## TO-DO
