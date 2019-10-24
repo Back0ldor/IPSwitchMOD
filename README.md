@@ -1,8 +1,8 @@
 ![IPSwitch](https://raw.githubusercontent.com/3096/ipswitch/master/icon.png)
-# Pronounced as "IPS-witch".
-Use text to generate `.ips` patches to use with Atmosphere.
+# Pronounced as "IPS-witchMOD".
+Use text to generate `.ips` patches to use with ReiNX.
 
-### To use `.ips` patches make sure you have Atmosphere 44e2412a (July 30, 2018) or later loader build.
+### To use `.ips` patches make sure you have one of the latest version of [ReiNX](https://github.com/Reisyukaku/ReiNX/releases) build.
 
 See example folder for details.
 
