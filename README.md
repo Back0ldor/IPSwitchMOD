@@ -1,4 +1,4 @@
-![IPSwitchMOD](https://raw.githubusercontent.com/Back0ldor/IPSwitchMOD/master/Jelonzo.PNG)
+![IPSwitchMOD](https://raw.githubusercontent.com/Back0ldor/IPSwitchMOD/master/JelonzoMOD.PNG)
 # Pronounced as "IPS-witchMOD".
 Use text to generate `.ips` patches to use with ReiNX.
 
