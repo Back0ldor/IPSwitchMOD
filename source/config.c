@@ -3,7 +3,7 @@
 
 int checkRequirement() {
     if(!isDirectory(REINX_DIR)) {
-    	userConfirm("ERROR,did you miss something?");
+    	userConfirm("I only works with ReiNX");
     	return -1;
     }
     return 0;
