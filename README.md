@@ -9,11 +9,17 @@ See example folder for details.
 ---
 ## Credits
 - [Plutoo](https://twitter.com/qlutoo) for making [elf2nso](https://github.com/switchbrew/switch-tools/tree/master/src), used in compressing patched elf to nso (ISC License)
-- [Violet Inkling](https://www.deviantart.com/violetinkling) for the app icon art *(with permission)*
 - [OatmealDome](https://github.com/OatmealDome) for help in testings and feature suggestions
 - All of my preview testers on SPH/SMH
-- [Back0ldor](https://twitter.com/PsychoBear21) for add support for ReiNX
-- [Elise](https://twitter.com/EliseZeroTwo) for help and adding support for ReiNX
+- [Back0ldor](https://twitter.com/PsychoBear21) for add support for ReiNX and the icon 
+- [Elise](https://twitter.com/EliseZeroTwo) for help and adding support for ReiNX 
+
+### Discord Servers
+
+• [3096's server](https://discord.gg/v8Rueaf)
+
+• [ReiSwitched's server](https://discord.gg/NxpeNwz)
+
 ---
 ## Build
 Make sure you have:
@@ -29,11 +35,7 @@ See [example](/example)
 
 For further assistance, 
 
-• [Discord](https://discord.gg/v8Rueaf) (Sheldon's server)
-
-My Discord Server:
-
-• [Discord](https://discord.gg/cD4GnpA) (PsychoBear21's server)
+Open a new issue, and I try to fix it (if possible)
 
 ---
 ## TO-DO
