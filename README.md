@@ -14,7 +14,8 @@ See example folder for details.
 - [Back0ldor](https://twitter.com/PsychoBear21) for add support for ReiNX and the icon 
 - [Elise](https://twitter.com/EliseZeroTwo) for help and adding support for ReiNX 
 - [3096](https://twitter.com/Dualie_ink) for the original IPSwitch project
-
+- Skirlez#5521 (on Discord) for helped me compiling the project and being really helpful
+- [Shchmue](https://twitter.com/shchmue) for helped me compiling the project and being helpful
 ### Discord Servers
 
 • [3096's server](https://discord.gg/v8Rueaf)
