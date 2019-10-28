@@ -13,6 +13,7 @@ See example folder for details.
 - All of my preview testers on SPH/SMH
 - [Back0ldor](https://twitter.com/PsychoBear21) for add support for ReiNX and the icon 
 - [Elise](https://twitter.com/EliseZeroTwo) for help and adding support for ReiNX 
+- [3096](https://twitter.com/Dualie_ink) for the original IPSwitch project
 
 ### Discord Servers
 
