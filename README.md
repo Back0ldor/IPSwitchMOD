@@ -12,7 +12,6 @@ See example folder for details.
 - [OatmealDome](https://github.com/OatmealDome) for help in testings and feature suggestions
 - All of my preview testers on SPH/SMH
 - [Back0ldor](https://twitter.com/PsychoBear21) for add support for ReiNX and the icon 
-- [Elise](https://twitter.com/EliseZeroTwo) for help and adding support for ReiNX 
 - [3096](https://twitter.com/Dualie_ink) for the original IPSwitch project
 - Skirlez#5521 (on Discord) for helped me compiling the project and being really helpful
 - [Shchmue](https://twitter.com/shchmue) for helped me compiling the project and being helpful
