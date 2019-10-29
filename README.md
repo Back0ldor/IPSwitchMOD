@@ -16,11 +16,12 @@ See example folder for details.
 - [3096](https://twitter.com/Dualie_ink) for the original IPSwitch project
 - Skirlez#5521 (on Discord) for helped me compiling the project and being really helpful
 - [Shchmue](https://twitter.com/shchmue) for helped me compiling the project and being helpful
+---
 ### Discord Servers
 
 • [3096's server](https://discord.gg/v8Rueaf)
 
-• [ReiSwitched's server](https://discord.gg/NxpeNwz)
+• [My server](https://discord.gg/cD4GnpA)
 
 ---
 ## Build
