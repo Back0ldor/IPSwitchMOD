@@ -2,8 +2,8 @@
 
 void mainMenu() {
     StrList* main_menu_list = getStrList();
-    addToStrList(main_menu_list, "Generate IPS by Patch Text");   //0
-    addToStrList(main_menu_list, "Toggle Patch Text Contents");   //1
+    addToStrList(main_menu_list, "パッチテキストによるIPSの生成");   //0
+    addToStrList(main_menu_list, "パッチテキストコンテンツの切り替え");   //1
     //addToStrList(main_menu_list, "Toggle Existing IPS");        //2 (planned)
     //addToStrList(main_menu_list, "Create Patch Text with IPS"); //3 (planned)
 
@@ -12,7 +12,7 @@ void mainMenu() {
         printf(
             "\n%s\n",
             CONSOLE_ESC(
-                1m) "Select an Operation or Press + to Quit:" CONSOLE_ESC(m));
+                1m) "操作を選択するか、+を押して終了します:" CONSOLE_ESC(m));
         u64 kDown = selectFromList(&selection, main_menu_list);
 
         if (kDown & KEY_A) {
@@ -29,14 +29,14 @@ void mainMenu() {
         }
 
         if (kDown & KEY_PLUS) break;
-		consoleUpdate(NULL);
+        consoleUpdate(NULL);
     }
 
     freeStrList(main_menu_list);
 }
 
 u64 patchTextSelect(PatchTextTarget* pchtxt_target) {
-    printf("\nReading contents from %s\n", IPSWITCH_DIR);
+    printf("\n読み取り %s\n", IPSWITCH_DIR);
 
     StrList* pchtxt_list = getStrList();
 
@@ -48,7 +48,7 @@ u64 patchTextSelect(PatchTextTarget* pchtxt_target) {
     struct dirent* dir_ent;
     dir = opendir(IPSWITCH_DIR);
     if (dir == NULL) {
-        printf(CONSOLE_ESC(31m) "Failed to open %s.\n" CONSOLE_ESC(m),
+        printf(CONSOLE_ESC(31m) "開けませんでした %s.\n" CONSOLE_ESC(m),
                IPSWITCH_DIR);
     } else {
         while ((dir_ent = readdir(dir))) {
@@ -72,7 +72,7 @@ u64 patchTextSelect(PatchTextTarget* pchtxt_target) {
             struct dirent* subdir_ent;
             subdir = opendir(subdir_path);
             if (subdir == NULL) {
-                printf(CONSOLE_ESC(31m) "Failed to open %s.\n" CONSOLE_ESC(m),
+                printf(CONSOLE_ESC(31m) "開けませんでした %s.\n" CONSOLE_ESC(m),
                        subdir_path);
             } else {
                 while ((subdir_ent = readdir(subdir))) {
@@ -100,7 +100,7 @@ u64 patchTextSelect(PatchTextTarget* pchtxt_target) {
     while (appletMainLoop()) {
         int selection = 0;
         printf("\n%s\n", CONSOLE_ESC(1m)
-            "Press: A to Select Patch Text | B to Go Back | PLUS(+) to quit:"
+            "Aキーを押して、パッチテキストを選択 戻るB | PLUS（+）で終了："
             CONSOLE_ESC(m));
         kDown = selectFromList(&selection, pchtxt_list);
 
@@ -125,7 +125,7 @@ u64 patchTextSelect(PatchTextTarget* pchtxt_target) {
             *strchr(pchtxt_target->folder_name, '/') = '\0';
             break;
         }
-		consoleUpdate(NULL);
+        consoleUpdate(NULL);
     }
 
     freeStrList(pchtxt_list);
@@ -146,11 +146,11 @@ u64 patchTextToIPSMenu() {
             rc = patchTextToIPS(&pchtxt_target);
 
             if (R_SUCCEEDED(rc))
-                printf(CONSOLE_ESC(32m) "\nAll Done\n" CONSOLE_ESC(m));
+                printf(CONSOLE_ESC(32m) "\n完了\n" CONSOLE_ESC(m));
             else
-                printf(CONSOLE_ESC(31m) "\nFailed: %d\n" CONSOLE_ESC(m), rc);
+                printf(CONSOLE_ESC(31m) "\n失敗: %d\n" CONSOLE_ESC(m), rc);
         }
-		consoleUpdate(NULL);
+        consoleUpdate(NULL);
     }
     return kDown;
 }
@@ -162,12 +162,12 @@ u64 patchTextToggleMenu() {
 
     if (kDown & KEY_A) {
         printf(CONSOLE_ESC(1m) 
-            "Press: A to Toggle a Patch            | B to Save and Go Back\n"
-            "       X to Abort and Discard Changes | "
-            "Y to Save and Apply Changes to IPS\n"
-            CONSOLE_ESC(0;32m) "\n\nGreen = Enabled "
-            CONSOLE_ESC(31m) "Red = Disabled\n" CONSOLE_ESC(m));
-			consoleUpdate(NULL);
+            "Aを押してパッチを切り替える | 保存して戻るにはB\n"
+            "       変更を中止して破棄するX | "
+            "変更を保存してIPSに適用するにはY\n"
+            CONSOLE_ESC(0;32m) "\n\n緑 = 有効 "
+            CONSOLE_ESC(31m) "赤 = 無効\n" CONSOLE_ESC(m));
+        consoleUpdate(NULL);
 
         StrList* pchtxt = getStrList();
         StrList* patch_str_list = getStrList();
@@ -176,7 +176,7 @@ u64 patchTextToggleMenu() {
         rc = readPchtxtIntoStrList(&pchtxt_target, pchtxt, patch_str_list);
         if (!R_SUCCEEDED(rc)) {
             printf(CONSOLE_ESC(
-                       31m) "\nFailed to read patch text: %d\n" CONSOLE_ESC(m),
+                       31m) "\nパッチテキストを読み取れませんでした: %d\n" CONSOLE_ESC(m),
                    rc);
             goto end;
         }
@@ -189,9 +189,9 @@ u64 patchTextToggleMenu() {
                 writePchtxtFromStrList(&pchtxt_target, pchtxt, patch_str_list);
 
             if (R_SUCCEEDED(rc)) {
-                printf(CONSOLE_ESC(32m) "Changes applied.\n" CONSOLE_ESC(m));
+                printf(CONSOLE_ESC(32m) "適用された変更.\n" CONSOLE_ESC(m));
             } else {
-                printf(CONSOLE_ESC(31m) "\nFailed: %d\n" CONSOLE_ESC(m), rc);
+                printf(CONSOLE_ESC(31m) "\n失敗: %d\n" CONSOLE_ESC(m), rc);
                 goto end;
             }
 
@@ -199,13 +199,13 @@ u64 patchTextToggleMenu() {
                 rc = patchTextToIPS(&pchtxt_target);
 
                 if (R_SUCCEEDED(rc))
-                    printf(CONSOLE_ESC(32m) "\nAll Done\n" CONSOLE_ESC(m));
+                    printf(CONSOLE_ESC(32m) "\n完了\n" CONSOLE_ESC(m));
                 else
-                    printf(CONSOLE_ESC(31m) "\nFailed: %d\n" CONSOLE_ESC(m),
+                    printf(CONSOLE_ESC(31m) "\n失敗: %d\n" CONSOLE_ESC(m),
                            rc);
             }
         } else {
-            printf(CONSOLE_ESC(33m) "Changes discarded.\n" CONSOLE_ESC(m));
+            printf(CONSOLE_ESC(33m) "変更を破棄しました.\n" CONSOLE_ESC(m));
         }
     end:
         freeStrList(pchtxt);
