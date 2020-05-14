@@ -2,8 +2,8 @@
 #include "patch.h"
 
 int checkRequirement() {
-    if(!isDirectory(REINX_DIR)) {
-    	userConfirm("I only works with ReiNX");
+      if(!isDirectory(ATMOS_DIR)) {
+    	userConfirm("Do you even Atmosphere bro?");
     	return -1;
     }
     return 0;
