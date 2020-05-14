@@ -339,10 +339,10 @@ int patchTarget(const PatchList* pchlist) {
     char out_file_path[0x100] = {0};
     FILE* out;
     if (mode == PATCH_MODE_ELF2NSO) {
-        strcpy(out_file_path, REINX_TITLE_DIR);
+        strcpy(out_file_path, ATMOS_TITLE_DIR);
         strcat(out_file_path, pchlist->target.tid_str);
         mkdir(out_file_path, 0700);
-        strcat(out_file_path, "/patches/");
+        strcat(out_file_path, "/exefs/");
         mkdir(out_file_path, 0700);
         strcat(out_file_path, pchlist->target.name);
 
