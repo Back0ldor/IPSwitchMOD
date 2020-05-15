@@ -45,8 +45,6 @@ Open a new issue, and I try to fix it (if possible)
 
 • You need to describe your problem
 
-• You need to let me know the build version of ReiNX and on what fw are you
-
 • ***IF POSSIBLE send a crash log***
 
 
