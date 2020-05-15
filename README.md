@@ -30,6 +30,10 @@ Make sure you have:
 - [lz4](https://github.com/lz4/lz4) compiled with DevkitA64
 
 Then simply run: `make`
+---
+## Installation
+
+Follow my guide on [my website](https://crustysean.github.io/CrustyGuide)
 
 ---
 ## How to use
