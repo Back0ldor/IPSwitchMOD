@@ -1,8 +1,8 @@
-![IPSwitchMOD](https://raw.githubusercontent.com/Back0ldor/IPSwitchMOD/master/icon.PNG)
-# Pronounced as "IPS-witchMOD".
-Use text to generate `.ips` patches to use with ReiNX.
+![IPSwitch-Jp](https://media.discordapp.net/attachments/688743348084670575/710461387457036399/image0.jpg)
+# Pronounced as "IPS-witch-Jp".
+Use text to generate `.ips` patches to use with Atmosphère.
 
-### To use `.ips` patches make sure you have one of the latest version of [ReiNX](https://github.com/Reisyukaku/ReiNX/releases) build.
+### To use `.ips` patches make sure you have one of the latest version of [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) build.
 
 See example folder for details.
 
@@ -11,9 +11,9 @@ See example folder for details.
 - [Plutoo](https://twitter.com/qlutoo) for making [elf2nso](https://github.com/switchbrew/switch-tools/tree/master/src), used in compressing patched elf to nso (ISC License)
 - [OatmealDome](https://github.com/OatmealDome) for help in testings and feature suggestions
 - All of my preview testers on SPH/SMH
-- [Back0ldor](https://twitter.com/PsychoBear21) for add support for ReiNX and the icon 
+- [CrustySean](https://twitter.com/CrustySean_) for some extra codes
 - [3096](https://twitter.com/Dualie_ink) for the original IPSwitch project
-- Skirlez#5521 (on Discord) for helped me compiling the project and being really helpful
+- [Takaharu](https://twitter.com/TakaharuDESUGA) for the icon + japanese translate
 - [Shchmue](https://twitter.com/shchmue) for helped me compiling the project and being helpful
 ---
 ### Discord Servers
