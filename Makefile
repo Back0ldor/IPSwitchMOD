@@ -41,7 +41,7 @@ VERSION_MICRO := $(VERSION_MICRO)-$(GITREV)
 endif
 
 APP_TITLE	:=	IPSwitch-Jp
-APP_AUTHOR	:=	3096, Takaharu
+APP_AUTHOR	:=	3096, CrustySeanPro & Takaharu
 APP_VERSION	:=	w${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_MICRO}
 
 TARGET		:=	$(notdir $(CURDIR))
