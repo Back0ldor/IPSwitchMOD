@@ -3,7 +3,7 @@
 
 int checkRequirement() {
       if(!isDirectory(ATMOS_DIR)) {
-    	userConfirm("Do you even Atmosphere bro?");
+    	userConfirm("あなたは雰囲気が必要です");
     	return -1;
     }
     return 0;
